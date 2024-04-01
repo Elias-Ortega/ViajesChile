@@ -24,11 +24,29 @@ main {
     background-color: #000000;
 }
 
+.favicon {
+    background-color: #1DD6E5;
+}
+
 .h-icon {
     height: 40px;
+
 }
 
 .icono-blanco {
     margin-top: 20px;
     color: #FFFF;
+}
+
+footer {
+    background-color: #1DD6E5;
+
+}
+
+#rs {
+    display: inline;
+}
+
+.icon {
+    color: white;
 }
