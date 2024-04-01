@@ -3,8 +3,6 @@ body * {
     padding: 0;
     font-family: "Cabin", sans-serif;
 
-
-
 }
 
 html {
@@ -16,6 +14,7 @@ html {
     color: white;
 }
 
+/* Hace que carrusel cubra el nav */
 .carousel {
     z-index: 1;
 }
@@ -43,9 +42,6 @@ footer {
 
 }
 
-#rs {
-    display: inline;
-}
 
 .icon {
     color: white;

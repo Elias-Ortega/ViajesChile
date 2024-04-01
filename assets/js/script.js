@@ -6,6 +6,19 @@ $(document).scroll(function (e) {
 })
 
 $(document).ready(function () {
+    //Smooth scroll
+    $("a").on('click', function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function () {
+                window.location.hash = hash;
+            });
+        }
+    });
+
     //tooltip del boton enviar
     $('[data-bs-toggle="tooltip"]').tooltip();
 
@@ -25,7 +38,7 @@ $(document).ready(function () {
         }
     });
 
-    //Oculta y muestra el parrafo de las tarjetas.
+    //Toggle en las tarjetas al hacer click en el titulo.
     $(".card-title").click(function () {
         $(this).next('.card-text').toggle();
     });

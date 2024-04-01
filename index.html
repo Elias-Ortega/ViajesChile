@@ -24,7 +24,7 @@
 
 <body>
     <!-- Cabecera de la página -->
-    <header>
+    <header id="inicio">
         <nav class="navbar navbar-expand-lg px-2 fixed-top navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand mx-5 text-white" href="#"><img src="assets/img/viajes.svg" alt="Logo" width="30"
@@ -37,16 +37,16 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav mx-5">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active text-white" aria-current="page" href="#inicio">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Quienes somos</a>
+                            <a class="nav-link text-white" href="#quienesSomos">Quienes somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Destacados</a>
+                            <a class="nav-link text-white" href="#destacados">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contacto</a>
+                            <a class="nav-link text-white" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -80,7 +80,7 @@
     <!-- Contenido Principal. -->
     <main class="container-fluid">
         <!-- Sección Quiénes somos.Desaparece en pantallas pequeñas -->
-        <section class="container">
+        <section id="quienesSomos" class="container">
             <div class="row">
                 <div class="col d-none d-sm-none d-md-block">
                     <h2 class="text-white text-center pt-5">¿ Quiénes somos?</h2>
@@ -176,7 +176,7 @@
         </section>
 
         <!-- Seccion Destacados(Tarjetas) -->
-        <section class="container">
+        <section id="destacados" class="container">
             <h2 class="text-white text-center pt-5">DESTACADOS</h2>
             <hr class="border black my-3">
 
@@ -241,7 +241,7 @@
         </section>
 
         <!-- Formulario Contacto -->
-        <section class="container">
+        <section id="contacto" class="container">
             <h2 class="text-white text-center pt-5">CONTACTO</h2>
             <hr class="border black my-3">
             <form action="">
