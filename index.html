@@ -52,7 +52,7 @@
                 </div>
             </div>
         </nav>
-
+        <!-- Carrusel -->
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -79,7 +79,7 @@
     </header>
     <!-- Contenido Principal. -->
     <main class="container-fluid">
-        <!-- Sección Quiénes somos -->
+        <!-- Sección Quiénes somos.Desaparece en pantallas pequeñas -->
         <section class="container">
             <div class="row">
                 <div class="col d-none d-sm-none d-md-block">
@@ -87,8 +87,6 @@
                     <hr class="border black my-3">
                 </div>
             </div>
-
-
             <div class="row my-5">
                 <div class="col-4 d-none d-sm-none d-md-block">
                     <div class="bg-primary text-center h-icon">
@@ -176,7 +174,8 @@
                 </div>
             </div>
         </section>
-        <!-- Seccion Destacados -->
+
+        <!-- Seccion Destacados(Tarjetas) -->
         <section class="container">
             <h2 class="text-white text-center pt-5">DESTACADOS</h2>
             <hr class="border black my-3">
@@ -239,6 +238,27 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <!-- Formulario Contacto -->
+        <section class="container">
+            <h2 class="text-white text-center pt-5">CONTACTO</h2>
+            <hr class="border black my-3">
+            <form action="">
+                <div class="mb-3">
+                    <label for="txtNombre" class="form-label text-white">Nombre</label>
+                    <input type="text" class="form-control" id="txtNombre">
+                </div>
+                <div class="mb-3">
+                    <label for="txtAsunto" class="form-label text-white">Asunto</label>
+                    <input type="text" class="form-control" id="txtAsunto">
+                </div>
+                <div class="mb-3">
+                    <label for="txtArea" class="form-label text-white">Mensaje</label>
+                    <textarea class="form-control" id="txtArea" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
         </section>
 
 
